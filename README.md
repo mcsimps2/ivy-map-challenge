@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Ivy Clinicians Take Home Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+For this take home challenge, you'll be implementing the ability to select multiple hospitals on a map by dragging your 
+mouse over an area to create a rectangular selection. Your final solution should end up looking like the following, where
+the hospitals are the blue dots and the map is the grid.
 
-## Available Scripts
+![](https://github.com/mcsimps2/ivy-map-challenge/blob/master/docs/demo.gif)
 
-In the project directory, you can run:
+## Time Requirements
+This challenge should take under an hour. Please make note of how long it took you to code your solution. 
+You will *NOT* be penalized for taking longer than an hour. Rather, we will use that information to determine if we 
+need to narrow the scope of the project.
 
-### `npm start`
+## Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Go ahead and clone the project. Run the following commands in the project root:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```shell
+npm install
+npm start
+```
 
-### `npm test`
+You should see the following screen on [http://localhost:3000](http://localhost:3000) containing a random placement
+of blue dots.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](https://github.com/mcsimps2/ivy-map-challenge/blob/master/docs/initial-screen.png)
 
-### `npm run build`
+In the file `components/Map.js`, complete the code so that when you click and drag your mouse across the screen,
+it places a rectangle on the map that covers your selected area.  The dots inside the rectangle should change color.  
+Only one rectangular selection should be allowed at a time.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+When you're finished with your solution, share your code with Matt Simpson. You may do this by creating a **private** repo
+on GitHub and adding `mcsimps2` to your repo. *Please do not make your repo public.*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to use StackOverflow or Google.
